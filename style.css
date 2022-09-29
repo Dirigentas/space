@@ -1,6 +1,17 @@
-header, main, footer {
+body {
+    background-color: blueviolet;
+}
+article {
+    background-color: #fff;
     width: 800px;
-    background-color: bisque;
+    margin-left: calc((100% - 800px) / 2);
+    padding-bottom: 20px;
+    margin-top: 8%;
+}
+
+header, main, footer {
+    background-color: #fff;
+    width: 800px;
     margin-left: calc((100% - 800px) / 2)
 }
 header > p, h2 {
@@ -9,26 +20,30 @@ header > p, h2 {
 header > p {
     width: 10%;
     text-align: center;
-    background-color: aqua;
-}
-header {
-    background-color: blue;
-   
+    font-weight: bold;
+    font-size: 12px;
 }
 h2 {
-    background-color: red;
     width: 50%;
     margin-left: 5%;
 }
 
-
-
-main > h1, img {
-    color: blueviolet;
-}
 h1 {
-    background-color: aquamarine;
-    padding-top: 60px;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 55px;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+hr {
+    margin-right: 82%;
+    margin-left: 5%;
+    height: 2px;
+    background-color: blueviolet;
 }
 img {
     float:right;
@@ -38,21 +53,24 @@ h1, h3 {
     width: 50%;
     margin-left: 5%;
 }
-main p {
+main > p {
     width: 50%;
-    margin-left: 5%;  
+    margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 5px;  
+    font-size: 14px;
 }
-div {
+div > p {
+    margin-left: 5%;
     display: inline-block;
-    background-color: aqua;
-    width: 10%;
-    margin: none
+    background-color: blueviolet;
+    width: 10%; 
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
 }
-
-
-
 
 footer > p {
-    background-color: aqua;
     text-align: right;
+    margin-right: 5%;
 }
