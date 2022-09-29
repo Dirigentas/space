@@ -8,7 +8,7 @@
 
 _40 group website project_
 
-Site published at:
+Site published at: https://dirigentas.github.io/space/
 
 Design: https://dribbble.com/shots/5964475/attachments/5964475-404-Lost-in-Space?mode=media
 
