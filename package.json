@@ -4,7 +4,7 @@
   "description": "md - [GitHub markdown syntax] https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --port=5001",
+    "dev": "dead-server --port=5001 --host=localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
