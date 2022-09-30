@@ -1,7 +1,7 @@
 body {
     background-color: blueviolet;
 }
-article {
+div {
     background-color: #fff;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
@@ -10,26 +10,15 @@ article {
     margin-top: 6%;
     border-radius: 3%;
 }
-
-header, main, footer {
-    background-color: #fff;
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2)
-}
-header > p, h2 {
+header p, h2, article p {
     display: inline-block;
 }
-header > p {
+header p {
     width: 10%;
     text-align: center;
     font-weight: bold;
     font-size: 12px;
 }
-h2 {
-    width: 50%;
-    margin-left: 5%;
-}
-
 h1 {
     padding-top: 40px;
     font-weight: normal;
@@ -41,30 +30,25 @@ h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
-hr {
-    margin-right: 82%;
-    margin-left: 5%;
-    height: 2px;
-    background-color: blueviolet;
-}
 img {
     float:right;
     margin-right: 40px;
 }
-h1, h3 {
+h2, h1, hr, h3, main p {
     width: 50%;
     margin-left: 5%;
 }
+hr {
+    width: 13%;
+    height: 2px;
+    background-color: blueviolet;
+}
 main > p {
-    width: 50%;
-    margin-left: 5%;
     margin-top: 0;
     margin-bottom: 5px;  
     font-size: 14px;
 }
-div > p {
-    margin-left: 5%;
-    display: inline-block;
+article p {
     background-color: blueviolet;
     width: 10%; 
     padding: 15px;
@@ -72,7 +56,6 @@ div > p {
     font-weight: bold;
     border-radius: 20%;
 }
-
 footer > p {
     text-align: right;
     margin-right: 5%;
