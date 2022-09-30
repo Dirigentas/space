@@ -24,5 +24,5 @@ Design: https://dribbble.com/shots/5964475/attachments/5964475-404-Lost-in-Space
 
 ## Authors
 
-Dirigentas: [Github](https://github.com/belauzas)
+Dirigentas: [Github](https://github.com/Dirigentas)
 Footer © 2022 GitHub, Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
