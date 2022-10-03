@@ -1,5 +1,4 @@
 body {
-    background-color: blueviolet;
 }
 div {
     background-color: #fff;
@@ -61,3 +60,8 @@ footer > p {
     text-align: right;
     margin-right: 5%;
 }
+
+/*
+stylinti pagal html tag atsiradimo struktūrą
+
+*/
