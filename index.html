@@ -6,37 +6,39 @@
     <meta http-equiv-"X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronautas</title>
-    <link rel="stylesheet" href="./style.css"><!--dėti ./ kai eina kalba apie github pages, reiškia,kad ieškotų failo tam pačiam faile kaip ir šis index failas-->
+    <link rel="stylesheet" href="./css/styles.css"><!--dėti ./ kai eina kalba apie github pages, reiškia,kad ieškotų failo tam pačiam faile kaip ir šis index failas-->
   </head>
 
   <body>
-    <header>
-        <img src="#" alt="logo">
-        <nav>
-          <a href="">About</a>
-          <a href="">Portfolio</a>
-          <a href="">Job</a>
-          <a href="">Contact</a>
+    <header class="container">
+        <img class ="logo" src="./img/logo.png" alt="logo">
+        <nav class="main-menu">
+          <a class="link" href="">About</a>
+          <a class="link" href="">Portfolio</a>
+          <a class="link" href="">Job</a>
+          <a class="link" href="">Contact</a>
         </nav>
     </header>
-    <main>
-      <div>
-        <h1>404 Lost in Space</h1>
+    
+    <main class="container">
+      <img class="right-column" src="./img/kosmonautas.png" alt="kosmonautas">
+      <div class="left-column">
+        <h1 class="main-title"><span>404</span><br>Lost in Space</h1>
         <hr>
-        <p>You have reached the edge of the universe. The page you requested could not be found. Don't worry and return to the previous page.</p>
-        <a href="">GO HOME</a>
-        <a href="">BACK</a>
+        <p class="description">You have reached the edge of the universe. The page you requested could not be found. Don't worry and return to the previous page.</p>
+        <a class="button" href="">GO HOME</a>
+        <a class="button" href="">BACK</a>
       </div>
-      <img src="./img/kosmonautas.jpg" alt="kosmonautas">
     </main>
-    <footer>
-      <div>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+
+    <footer class="container">
+      <div class="socials">
+        <a class="link" href="#">a</a>
+        <a class="link" href="#">b</a>
+        <a class="link" href="#">c</a>
+        <a class="link" href="#">d</a>
       </div>
-      <p>&copy; 2019 - All rights reserved</p>
+      <p class="copyright">&copy; 2019 - All rights reserved</p>
     </footer>
   </body>
 </html>
@@ -59,4 +61,5 @@ kuo mažiau html tagų, tuo geriau
 "Lorem10" parašys belekokius 10 žodžių
 lorem pixum generuoja random image's 
 paint.net ctrl+i investina magic wand selct'ą
+nenaudoti dažnai 'br',nes gali tai sumaišyti dizainą skirtinguose ekranuose
 -->
