@@ -3,59 +3,67 @@
 .container {
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
+    display: inline-block;
 }
 
 /*HEADER*/
 .logo {
-    margin-top: 0.5%;
     float: left;
+    height: 30px;
 }
 .main-menu {
-    margin-top: 5%;
-    margin-right: 2%;
-    margin-left: 65%;
+    float: right;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 5px;
 }
 .main-menu > .link {
-    margin-left: 6%;
-    font-weight: bold;
+    color: #000;
     text-decoration: none;
+    margin-left: 30px;
+}
+.main-menu > .link:nth-child(1) {
+    margin-left: 0;
 }
 
 /*MAIN*/
-.left-column {}
+.left-column {
+    width: 40%;
+    margin-right: 0;
+    float: left;
+}
 .main-title {
     font-size: 50px;
-    margin-top: 10%;
-    margin-bottom: 0;
 }
 .main-title > span {
     font-weight:normal;
 }
-hr {
-    margin-right: 86%;
-    height: 2px;
-    background-color: blueviolet;
-}
 .description {
-    margin-top: 2%;
-    width: 30%;
-    margin-bottom: 6%;
-    font-size: 13px;
+
 }
 .button {
-    margin-left: 1%;
-    background-color: blueviolet;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 24px;
+    display: inline-block;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #664499;
     color: #fff;
+    font-size: 18px;
     text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.button.btn-white {
+    background-color: #fff;
+    color: #664499;
+    border-color: #664499;
+    border-width: 1px;
+    border-bottom: 10px;
+    border: solid
 }
 .right-column {
     float: right;
-    margin-top: -5%;
+    width: 60%;
 }
 
 /*FOOTER*/
@@ -94,9 +102,17 @@ footer > div > a {}
 footer >p {}
 */
 
-
-
 /*
 stylinti pagal html tag atsiradimo struktūrą
+object-fit: contain - visas paveikslėlis matoams, cover apkerpa
+object-position
+.main-menu > link:nth-child(2) - antras (2n) - kas antras
+su :nth-type reikia nurodyti ir tag'ą (tinka su meniu punktais, o su mygtukais netinka)
+line-height - svarbu naudoti, kad tvarkingai sulygiuoti dalykus
+text-transform: uppercase, lower case ir pan.
 
+ND
+pasižaisti su type ir child
+
+border-radius 0-50%, px priklauso nuo font-size, border, margin, padding
 */
