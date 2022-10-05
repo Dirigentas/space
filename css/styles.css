@@ -4,6 +4,7 @@
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 /*HEADER*/
@@ -79,6 +80,9 @@ footer {}
 .copyright {
     display: inline-block;
 }
+footer.container {
+    margin-bottom: 0;
+}
 
 
 /*struktūra pagal elementus
@@ -107,12 +111,11 @@ stylinti pagal html tag atsiradimo struktūrą
 object-fit: contain - visas paveikslėlis matoams, cover apkerpa
 object-position
 .main-menu > link:nth-child(2) - antras (2n) - kas antras
-su :nth-type reikia nurodyti ir tag'ą (tinka su meniu punktais, o su mygtukais netinka)
+su :nth-type reikia nurodyti ir tag'ą (visi šitie tinka su meniu punktais, o su mygtukais netinka)
 line-height - svarbu naudoti, kad tvarkingai sulygiuoti dalykus
 text-transform: uppercase, lower case ir pan.
-
-ND
-pasižaisti su type ir child
-
 border-radius 0-50%, px priklauso nuo font-size, border, margin, padding
+max board radius in px = puse trumpiausios kraštinės = line aukštis, padding, boarder,
+display: inline block sutvarko persidengiančius margin'us
+pseudo selectors: hover, ...
 */
