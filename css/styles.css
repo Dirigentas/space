@@ -4,13 +4,18 @@
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+footer.container {
+    margin-bottom: 0;
 }
 
 /*HEADER*/
 .logo {
     float: left;
     height: 30px;
+    /* object-fit: contain; */
+    /* object-position: top left; */
 }
 .main-menu {
     float: right;
@@ -23,66 +28,102 @@
     text-decoration: none;
     margin-left: 30px;
 }
+.main-menu > .link:hover {
+    text-decoration: underline;
+    color: #664499;
+}
 .main-menu > .link:nth-child(1) {
     margin-left: 0;
+}
+.main-menu > .underline {
+    text-decoration: underline;
+    color: #664499;
 }
 
 /*MAIN*/
 .left-column {
     width: 40%;
-    margin-right: 0;
     float: left;
 }
 .main-title {
     font-size: 50px;
+    width: 100%;
+    display: inline-block;
 }
 .main-title > span {
     font-weight:normal;
 }
+.main-title > .line {
+    display: block;
+    height: 4px;
+    width: 25%;
+    background-color: #664499;
+}
 .description {
-
+    display: inline-block;  
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 50px;
 }
 .button {
     display: inline-block;
-    padding: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: 10px;
+    margin-bottom: 10px;
     background-color: #664499;
     color: #fff;
     font-size: 18px;
+    line-height: 1em;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 30px;
+    border-radius: 1.5em;
+    border: 0.2em solid #664499;
+}
+.button:hover {
+    background-color: #fff;
+    color: #664499;
 }
 .button.btn-white {
     background-color: #fff;
     color: #664499;
-    border-color: #664499;
-    border-width: 1px;
-    border-bottom: 10px;
-    border: solid
+}
+.btn-white:hover {
+    background-color: #664499;
+    color: #fff;
 }
 .right-column {
     float: right;
     width: 60%;
+    margin-right: -30px;
 }
 
 /*FOOTER*/
 footer {}
 .socials {
-    display: inline-block;
-    width: 75%;
+    float: left;
+    margin-top: 10px;
 }
 .socials > .link {
+    height: 2em;
+    width: 2em;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2em;
+    color: #ccc;
     text-decoration: none;
-    color: black;
+}
+.socials > .link:hover {
+    background-color: #664499;
+    color: #fff;
+    border-radius: 50%; /*tinka %, nes kvadratas*/
 }
 .copyright {
-    display: inline-block;
+    float: right;
 }
-footer.container {
-    margin-bottom: 0;
-}
+
 
 
 /*struktūra pagal elementus
