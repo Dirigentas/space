@@ -154,8 +154,9 @@ object-position
 su :nth-type reikia nurodyti ir tag'ą (visi šitie tinka su meniu punktais, o su mygtukais netinka)
 line-height - svarbu naudoti, kad tvarkingai sulygiuoti dalykus
 text-transform: uppercase, lower case ir pan.
-border-radius 0-50%, px priklauso nuo font-size, border, margin, padding
+border-radius 0-50%, px priklauso nuo font-size, border, padding
 max board radius in px = puse trumpiausios kraštinės = line aukštis, padding, boarder,
 display: inline block sutvarko persidengiančius margin'us
 pseudo selectors: hover, ...
+pseudo elements: ...
 */
